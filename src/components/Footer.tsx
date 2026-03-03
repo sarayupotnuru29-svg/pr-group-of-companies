@@ -54,7 +54,7 @@ const Footer = () => {
           {/* Services */}
           <div>
             <h3 className="font-heading font-bold text-lg mb-4">Our Services</h3>
-            <ul className="space-y-2">
+            <ul className="grid grid-cols-2 gap-x-6 gap-y-2">
               {serviceLinks.map((service) => (
                 <li key={service}>
                   <Link

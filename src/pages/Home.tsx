@@ -37,14 +37,13 @@ const Home = () => {
               >
                 View Services
               </Link>
-              <a
-                href={`https://wa.me/916300381586?text=${encodeURIComponent("Hello PR Group of Companies, I would like to know more about your services.")}`}
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                to="/contact"
+                onClick={() => window.scrollTo(0, 0)}
                 className="inline-flex items-center px-8 py-3 rounded-lg border-2 border-primary-foreground/40 text-primary-foreground font-semibold hover:bg-primary-foreground/10 transition-colors"
               >
-                Send a Message
-              </a>
+                Contact Us
+              </Link>
             </div>
           </motion.div>
         </div>
